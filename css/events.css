@@ -172,10 +172,6 @@ h4{
     text-align: center;
     font-size:1.5rem;
 }
-body{
-  background-image:url("images/b3.jpg");
-  background-color: #000;
-}
 
 .hovereffect {
   width:100%;
@@ -411,3 +407,9 @@ body{
   {
     color: #fff;
   }
+  @media (max-width: 700px) {
+    .row{
+      margin-left: 0;
+      margin-right: 0;
+    }
+    }
