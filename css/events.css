@@ -31,8 +31,8 @@
 }
 
 .sb-navbar .nav-item a{
-  /* color: #fff; */
-  color: #000;
+  color: #fff;
+  /* color: #000; */
   transition: background-color 200ms linear;
 }
 
@@ -41,10 +41,12 @@
   transition: background-color 200ms linear;
 }
 
-.sb-navbar.scrolled a{
-  color: #fff;
+.sb-navbar .nav-item .dropdown-menu a{
+  color: #000;
 }
-
+.sb-navbar.scrolled .dropdown-menu{
+  color: #000;
+}
 .sb-navbar.scrolled .dropdown-menu{
   background-color: #fff;
 }
@@ -407,9 +409,7 @@ h4{
   {
     color: #fff;
   }
-  /* @media (max-width: 700px) {
-    .row{
+    /* .row{
       margin-left: 0;
       margin-right: 0;
-    }
     } */
